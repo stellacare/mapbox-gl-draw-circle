@@ -1,15 +1,17 @@
 # mapbox-gl-draw-circle
 
-Adds support for drawing and editing a circle feature using [mapbox-gl-draw](https://github.com/mapbox/mapbox-gl-draw) library.
+Adds support for drawing and editing a circle feature using [mapbox-gl-draw](https://github.com/mapbox/mapbox-gl-draw)
+library.
 
 ## Demo
 
 ##### Circle mode
+
 ![Circle Mode Demo](demo/CircleModeDemo.gif)
 
 ##### Drag Circle mode
-![Drag Circle Mode Demo](demo/DragCircleDemo.gif)
 
+![Drag Circle Mode Demo](demo/DragCircleDemo.gif)
 
 ## Usage
 
@@ -52,9 +54,11 @@ The default radius units are in **kilometers** and initial radius is **2km**.
 draw.changeMode('draw_circle', { initialRadiusInKm: 0.5 });
 ```
 
-It fires the same events as the mapbox-gl-draw library. For more information follow this [link](https://github.com/mapbox/mapbox-gl-draw/blob/master/docs/API.md#events).
+It fires the same events as the mapbox-gl-draw library. For more information follow
+this [link](https://github.com/mapbox/mapbox-gl-draw/blob/master/docs/API.md#events).
 
 Sample feature object returned in `draw.create` event
+
 ```
 {
   "id": "e184898e58feaa5c2c56f20a178ffe2c",
