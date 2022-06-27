@@ -1,6 +1,6 @@
 {
   "name": "@stellacareaps/mapbox-gl-draw-circle",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A module to draw a circle using mapbox-gl-draw",
   "main": "index",
   "keywords": [
