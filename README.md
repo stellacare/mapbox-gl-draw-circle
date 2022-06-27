@@ -77,10 +77,3 @@ Sample feature object returned in `draw.create` event
   }
 }
 ```
-
-## Changelog
-
-### v1.1.0
-
-* Added a new DragCircle mode.
-* Fixed issue (#5), where the polygon mode was not working when used along with CircleMode.
